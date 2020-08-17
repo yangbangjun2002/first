@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>这是个神奇的网站</title>
+</head>
+
+<body>
+<text style="color: red">王婕是个傻子阿</text>
+<text>王晗比前面的更傻</text>
+<div style="color:red">康子就不一样了</div>
+<div><span style="color:red">姚龙飞</span>你们猜下傻还是不傻</div>
+
+<button onclick="myFunction1()"> 点击猜一猜 </button>
+
+<div style="display: none;"  id="id1">
+	<button>
+		傻
+	</button>
+	<button>
+		还是傻
+	</button>
+</div>
+
+<script>
+		function myFunction1() 
+		{
+			var id = document.getElementById('id1');
+			// 展示
+			if (id.style.display == "block") {
+				id.style.display = "none";
+			}
+
+			else {
+				id.style.display = "block";
+			}
+
+		}
+</script>
+
+</body>
+</html>
